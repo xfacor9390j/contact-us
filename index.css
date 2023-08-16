@@ -14,6 +14,7 @@
 
    
 }
+
 .image-one{
     
     width: 100%;
@@ -254,9 +255,44 @@
     position: absolute;
     top: 150px;
 }
+.get-in{
+    margin-left: 120px;
+    margin-bottom: 40px;
+}
 
 
 
+@media screen and ( max-width:1050px ){
+    .grid-elements{
+        display: flex;
+        flex-direction: column;
+        margin-left: 70px;
+        
+    }
+    .third-input{
+        margin: 0;
+    }
+    .form-div{
+        margin-top: 100px;
+       
+    }
+    .get-in{
+        margin-left: 70px;
+        margin-bottom: 40px;
+    }
+    .submit-button{
+        margin-top: 0px;
+        margin-left: 30px;
+    }
+    .content-box{
+        display: grid;
+        padding: 40px;
+    }
+    .ellipse-section{
+        max-height: 100px;
+    }
+    
+}
 
 
 @media screen and ( max-width:500px ){
@@ -271,6 +307,7 @@
     }
     .section-one-h1{
         font-size: 1em;
+        letter-spacing: 8px;
     }
     .yellow{
         min-height: 500px;
