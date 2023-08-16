@@ -291,6 +291,10 @@
     .ellipse-section{
         /* max-height: 100px; */
     }
+    .newsletter{
+        /* min-height: 100px; */
+        min-width: 700px;
+    }
     
 }
 
@@ -320,8 +324,17 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-left: 0px;
+       
        
     }
+    .form-div{
+        margin-top: 0px;
+    }
+    .get-in{
+        margin-left: 25px;
+    }
+   
     .white-div{
        
     }
