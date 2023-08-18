@@ -98,6 +98,9 @@
 
 }
 .submit-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 70px;
     /* margin-left: 0px; */
     width: 110px;
@@ -105,6 +108,8 @@
     background-color: blue;
     padding: 10px;
     color: white;
+    font-size: 1.4em;
+    letter-spacing: 3px;
    
     
 }
@@ -260,6 +265,7 @@
     color: white;
     transition: 1s;
 }
+
 @media screen and ( max-width:1050px ){
     .grid-elements{
         display: flex;
@@ -400,6 +406,7 @@
     .ellipse-section{
         overflow-x: hidden;
         overflow-y: hidden;
+        height: 650px;
      }
     .tilt-boxes{
         max-height: 100px;
