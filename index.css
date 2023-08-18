@@ -129,6 +129,7 @@
     max-height: 150px;
     border: black solid 2px;
     padding: 110px;
+    padding-top: 50px;
     margin-top: -4px;
     
 }
@@ -254,6 +255,11 @@
     position: absolute;
     top: 150px;
 }
+.content-box:hover{
+    background-color: blue;
+    color: white;
+    transition: 1s;
+}
 @media screen and ( max-width:1050px ){
     .grid-elements{
         display: flex;
@@ -280,28 +286,43 @@
         display: grid;
         padding: 40px;
     }
-    .ellipse-section{
-        /* max-height: 100px; */
-    }
+   
     .newsletter{
         /* min-height: 100px; */
         min-width: 700px;
     }
     
 }
+.text-on-ellipse{
+   position: absolute;
+    right: 90px;
+    top: 250px;
+    display: flex;
+    overflow-wrap: break-word;
+    z-index: 999;
+   max-width: 350px;
+   line-height: 2;
+    
+}
+.lucida{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 
 
 
 @media screen and ( max-width:500px ){
+    
     .contact-us-block{
-   
-        
-       
         min-width: 50%;
         min-height: 60px;
         left: 20%;
 
+    }
+    .text-on-ellipse{
+        right: 20px;
+        line-height: 1.5;
+        top: 310px;
     }
     .section-one-h1{
         font-size: 1em;
@@ -370,13 +391,20 @@
     }
     .ellipse-image{
         top: 190px;
-        left: 10px;
-      max-height: 300px;
-      min-width: 300px;
+       left: 0;
+        transform: translateX(-65px);
+        /* overflow-x: hidden; */
+      max-height: 400px;
+      min-width: 500px;
     }
+    .ellipse-section{
+        overflow-x: hidden;
+        overflow-y: hidden;
+     }
     .tilt-boxes{
         max-height: 100px;
-        top: 390px;
+        top: 470px;
+        left: 100px;
         /* min-width: 300px; */
        display: flex;
        /* max-width: 100px; */
@@ -385,6 +413,7 @@
     }
     .tilt{
         margin: 0;
+       
     }
     .ellipse-section{
         min-height: 60vh;
