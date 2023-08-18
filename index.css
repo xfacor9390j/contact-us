@@ -315,8 +315,6 @@
 }
 
 
-
-
 @media screen and ( max-width:500px ){
     
     .contact-us-block{
@@ -335,7 +333,7 @@
         letter-spacing: 7px;
     }
     .yellow{
-        min-height: 500px;
+        max-height: 800px;
     }
     .two-div{
 
@@ -446,6 +444,26 @@
         flex-direction: column;
         gap: 20px;
     }
+   
+
+}
+
+@media screen and (max-width:400px){
+    
+    .yellow{
+        min-height: 800px;
+    }
+    .text-on-ellipse{
+       margin-left: 25px;
+    }
+    .ellipse-image{
+        transform: translateX(-20%);
+      
+    }
+    .skew-yellow-section{
+       
+    }
+   
    
 
 }
